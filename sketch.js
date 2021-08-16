@@ -180,7 +180,7 @@ if(player.isTouching(fenceGroup))
      
   }
 
-  if(saplingCount>=1 && canCount>=1)
+  if(saplingCount>=5 && canCount>=5)
   {
     ground.velocityY = 0
     saplingGroup.setVelocityYEach(0)
